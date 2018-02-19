@@ -20,6 +20,7 @@ namespace TouhouOnline.Game
                 if(host.IsPrimaryInstance)
                 {
                     host.Run(new TouhouOnlineGame(args));
+                    //test
                 }
             }
         }
